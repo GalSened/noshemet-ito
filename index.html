@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>נושמת איתו — הגר סנד נויגבור</title>
+  <meta name="description" content="רומן על אהבה, ריפוי, והאומץ לנשום מחדש. 'נושמת איתו' מאת הגר סנד נויגבור — זמין לרכישה דיגיטלית." />
+  <link rel="canonical" href="https://<YOUR_GITHUB_USERNAME>.github.io/<REPO_NAME>/" />
+  <meta name="theme-color" content="#0f766e" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="נושמת איתו — הגר סנד נויגבור" />
+  <meta property="og:description" content="רומן על אהבה, ריפוי, והאומץ לנשום מחדש. לחצו לקריאת תקציר וקנייה." />
+  <meta property="og:image" content="assets/images/cover-placeholder.svg" />
+  <meta property="og:locale" content="he_IL" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="נושמת איתו — הגר סנד נויגבור" />
+  <meta name="twitter:description" content="רומן על אהבה, ריפוי, והאומץ לנשום מחדש." />
+  <meta name="twitter:image" content="assets/images/cover-placeholder.svg" />
+
+  <!-- Fonts (Hebrew-friendly) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind via CDN (no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Heebo','Assistant','system-ui','-apple-system','Segoe UI','Roboto','Noto Sans Hebrew','Arial','sans-serif'],
+          },
+          colors: {
+            forest: '#0f766e',
+            moss: '#064e3b',
+            dawn: '#f59e0b',
+            fog: '#f5f5f4',
+          },
+          boxShadow: {
+            soft: '0 10px 25px rgba(0,0,0,0.15)',
+          },
+          backgroundImage: {
+            'grain': 'radial-gradient(ellipse at top left, rgba(255,255,255,.08), transparent 40%), radial-gradient(ellipse at bottom right, rgba(0,0,0,.08), transparent 40%)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="robots" content="index, follow">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "נושמת איתו",
+    "author": {"@type": "Person", "name": "הגר סנד נויגבור"},
+    "publisher": {"@type": "Organization", "name": "ספרי ניב"},
+    "datePublished": "2023",
+    "numberOfPages": 389,
+    "inLanguage": "he",
+    "bookFormat": "https://schema.org/EBook",
+    "genre": ["רומן רומנטי","רומנטיקה עכשווית"],
+    "image": "assets/images/cover-placeholder.svg",
+    "description": "רומן על אהבה, ריפוי, והאומץ לנשום מחדש."
+  }
+  </script>
+</head>
+
+<body class="bg-fog text-zinc-900 selection:bg-dawn/30">
+  <!-- Floating Buy Bar -->
+  <div id="buyBar" class="fixed inset-x-0 top-0 z-50 backdrop-blur bg-white/70 border-b border-white/40 hidden">
+    <div class="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <img src="assets/images/cover-placeholder.svg" alt="כריכת הספר נושמת איתו" class="h-10 w-8 rounded shadow" />
+        <span class="font-semibold">נושמת איתו — הגר סנד נויגבור</span>
+      </div>
+      <div class="flex gap-2">
+        <a href="https://www.e-vrit.co.il/Product/27831/%D7%A0%D7%95%D7%A9%D7%9E%D7%AA_%D7%90%D7%99%D7%AA%D7%95" target="_blank" rel="noopener" class="btn-buy">קנייה ב־עברית</a>
+        <a href="https://www.mendele.co.il/product/breathe_with_him/" target="_blank" rel="noopener" class="btn-ghost">קנייה במנדלי</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <header id="home" class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-emerald-900 via-emerald-700 to-amber-600 opacity-90"></div>
+    <div class="absolute inset-0 bg-grain mix-blend-overlay pointer-events-none"></div>
+
+    <div class="relative max-w-6xl mx-auto px-4 pt-28 pb-20 sm:pb-28">
+      <nav class="flex items-center justify-between">
+        <a href="#home" class="text-white/90 hover:text-white text-lg font-semibold tracking-tight">נושמת איתו</a>
+        <div class="hidden sm:flex items-center gap-4 text-white/90">
+          <a href="#about" class="nav-link">על הספר</a>
+          <a href="#reviews" class="nav-link">ביקורות</a>
+          <a href="#author" class="nav-link">על המחברת</a>
+          <a href="#buy" class="nav-link">קנייה</a>
+          <a href="#press" class="nav-link">מדיה</a>
+        </div>
+      </nav>
+
+      <div class="mt-12 grid md:grid-cols-2 gap-10 items-center">
+        <div class="text-white">
+          <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">נושמת איתו</h1>
+          <p class="mt-3 text-lg text-white/90">רומן על אהבה, ריפוי, והאומץ לנשום מחדש. מאת <span class="font-semibold">הגר סנד נויגבור</span>.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#about" class="btn-primary">קראו תקציר</a>
+            <a href="#buy" class="btn-ghost">קנייה עכשיו</a>
+          </div>
+          <div class="mt-6 text-sm text-white/80">
+            <span>389 עמודים · ספרי ניב · 2023</span>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="absolute -inset-6 bg-white/10 blur-2xl rounded-3xl"></div>
+          <div class="relative bg-white rounded-2xl shadow-soft overflow-hidden ring-1 ring-black/5">
+            <img src="assets/images/cover-placeholder.svg" alt="כריכת הספר נושמת איתו" class="w-full object-cover aspect-[3/4]">
+          </div>
+          <div class="mt-4 grid grid-cols-3 gap-3 text-white/90 text-sm">
+            <div class="backdrop-blur bg-white/10 rounded-xl p-3">רומנטיקה עכשווית</div>
+            <div class="backdrop-blur bg-white/10 rounded-xl p-3">מסע ריפוי</div>
+            <div class="backdrop-blur bg-white/10 rounded-xl p-3">רגש ועוצמה</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="grid lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-7">
+          <h2 class="section-title">על הספר</h2>
+          <p class="lead">
+            "נושמת איתו" הוא רומן עכשווי טעון רגשות על מבט אחד שמשנה הכול, ועל הבחירה לנשום מחדש גם כשעבר כואב מבקש לעצור את הלב. 
+          </p>
+          <p class="mt-4">
+            באתר זה תמצאו תקציר, תמות מרכזיות, ביקורות קוראים, וקישורים לרכישה מיידית במהדורה דיגיטלית. 
+            לקריאת דוגמה מלאה, בקרו בדף הספר ב"עברית" או ב"מנדלי".
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a target="_blank" rel="noopener" href="https://www.e-vrit.co.il/Product/27831/%D7%A0%D7%95%D7%A9%D7%9E%D7%AA_%D7%90%D7%99%D7%AA%D7%95" class="btn-ghost">דוגמה ב־עברית</a>
+            <a target="_blank" rel="noopener" href="https://www.mendele.co.il/product/breathe_with_him/" class="btn-ghost">דוגמה במנדלי</a>
+          </div>
+          <ul class="mt-8 grid sm:grid-cols-2 gap-3">
+            <li class="feature">רומן ביכורים סוחף</li>
+            <li class="feature">389 עמודים, 2023</li>
+            <li class="feature">הוצאת ספרי ניב</li>
+            <li class="feature">זמין דיגיטלית</li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="card">
+            <h3 class="card-title">תמות מרכזיות</h3>
+            <ul class="space-y-3">
+              <li class="bullet">ריפוי מטראומה ובחירה בחיים</li>
+              <li class="bullet">אהבה במקום העבודה</li>
+              <li class="bullet">תשוקה, אמון, ואומץ</li>
+            </ul>
+          </div>
+
+          <div class="card mt-5">
+            <h3 class="card-title">פרטי הספר</h3>
+            <dl class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
+              <dt class="muted">מחברת</dt><dd>הגר סנד נויגבור</dd>
+              <dt class="muted">הוצאה</dt><dd>ספרי ניב</dd>
+              <dt class="muted">שנה</dt><dd>2023</dd>
+              <dt class="muted">עמודים</dt><dd>389</dd>
+              <dt class="muted">ז׳אנר</dt><dd>רומן רומנטי</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="section bg-white">
+    <div class="container">
+      <h2 class="section-title">ביקורות קוראות/ים</h2>
+      <p class="muted">טען/י כאן ציטוטים מפלטפורמות מכירה ורשתות (עם קרדיט למקור). להלן דוגמאות למבנה — החליפו בתוכן אמיתי.</p>
+
+      <div class="reviews mt-6" role="region" aria-label="קרוסלת ביקורות">
+        <button class="carousel-btn prev" aria-label="הקודם">‹</button>
+        <div class="carousel-track">
+          <article class="review">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <blockquote>סיפור עוצמתי שגורם ללב לפעום מהר — כתיבה מרגשת ומטלטלת.</blockquote>
+            <footer>— קוראת, <span class="source">חנות ספרים</span></footer>
+          </article>
+
+          <article class="review">
+            <div class="stars">★★★★☆</div>
+            <blockquote>רומן רומנטי בוגר, נוגע, ומלא תקווה.</blockquote>
+            <footer>— קורא, <span class="source">בלוג ספרות</span></footer>
+          </article>
+
+          <article class="review">
+            <div class="stars">★★★★★</div>
+            <blockquote>הדמויות חיות ונכנסות ללב. קשה להניח מהיד.</blockquote>
+            <footer>— קוראת, <span class="source">קהילת קוראות</span></footer>
+          </article>
+        </div>
+        <button class="carousel-btn next" aria-label="הבא">›</button>
+      </div>
+
+      <div class="text-center mt-6">
+        <a target="_blank" rel="noopener" href="https://www.e-vrit.co.il/Product/27831/%D7%A0%D7%95%D7%A9%D7%9E%D7%AA_%D7%90%D7%99%D7%AA%D7%95" class="link">ראו דירוגים נוספים ב־עברית</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Author -->
+  <section id="author" class="section">
+    <div class="container grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="section-title">על המחברת</h2>
+        <p class="lead">הגר סנד נויגבור — יוצרת ישראלית. "נושמת איתו" הוא ספר הביכורים שלה.</p>
+        <p class="mt-3">עוד על המחברת וקורותיה תוכלו לקרוא בדף המחברת ב"עברית".</p>
+        <a target="_blank" rel="noopener" href="https://www.e-vrit.co.il/Author/15907/%D7%94%D7%92%D7%A8_%D7%A1%D7%A0%D7%93_%D7%A0%D7%95%D7%99%D7%92%D7%91%D7%95%D7%A8" class="btn-ghost mt-4 inline-block">דף המחברת ב־עברית</a>
+      </div>
+      <div class="relative">
+        <div class="absolute -inset-6 bg-emerald-200/40 blur-2xl rounded-3xl"></div>
+        <div class="relative bg-white rounded-2xl p-8 shadow-soft ring-1 ring-black/5">
+          <h3 class="text-lg font-semibold">מסר מהמחברת</h3>
+          <p class="mt-2 text-zinc-700">כאן ניתן להוסיף פסקה אישית/ציטוט קצר של המחברת על תהליך הכתיבה והמסע שמאחורי הספר.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buy -->
+  <section id="buy" class="section bg-white">
+    <div class="container">
+      <h2 class="section-title">קנייה</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <a class="store-card" target="_blank" rel="noopener" href="https://www.e-vrit.co.il/Product/27831/%D7%A0%D7%95%D7%A9%D7%9E%D7%AA_%D7%90%D7%99%D7%AA%D7%95">
+          <img src="assets/images/cover-placeholder.svg" alt="" class="store-cover" />
+          <div>
+            <h3 class="store-title">עברית | e‑Vrit</h3>
+            <p class="store-meta">מהדורה דיגיטלית · תקציר וטעימה</p>
+          </div>
+          <span class="store-cta">לרכישה</span>
+        </a>
+
+        <a class="store-card" target="_blank" rel="noopener" href="https://www.mendele.co.il/product/breathe_with_him/">
+          <img src="assets/images/cover-placeholder.svg" alt="" class="store-cover" />
+          <div>
+            <h3 class="store-title">מנדלי מוכר ספרים</h3>
+            <p class="store-meta">דיגיטלי · לעיתים במבצע</p>
+          </div>
+          <span class="store-cta">לרכישה</span>
+        </a>
+
+        <a class="store-card" target="_blank" rel="noopener" href="https://lamaskill.com/product/%D7%A0%D7%95%D7%A9%D7%9E%D7%AA-%D7%90%D7%99%D7%AA%D7%95/">
+          <img src="assets/images/cover-placeholder.svg" alt="" class="store-cover" />
+          <div>
+            <h3 class="store-title">למה‑סקיל (יד שנייה)</h3>
+            <p class="store-meta">מודפס · פרטי מהדורה</p>
+          </div>
+          <span class="store-cta">לרכישה</span>
+        </a>
+      </div>
+
+      <div class="note mt-6">
+        <p>קישורי הרכישה מפנים לחנויות חיצוניות. מחירים/זמינות עשויים להשתנות.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Press / Media -->
+  <section id="press" class="section">
+    <div class="container">
+      <h2 class="section-title">מדיה ותקשורת</h2>
+      <p class="mt-2">הורידו ערכת מדיה לשימוש בעיתונות ורשת: כריכה (300dpi), תמונת מחברת, תקציר קצר/ארוך, פרטי יצירת קשר.</p>
+      <a href="press-kit/README.txt" class="btn-primary mt-4 inline-block">הורדת ערכת מדיה</a>
+      <ul class="mt-6 grid sm:grid-cols-2 gap-3">
+        <li class="feature">קבצי OG/Twitter מוכנים</li>
+        <li class="feature">Schema.org/Book מובנה</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 text-center text-sm text-zinc-600">
+    <p>© <span id="year"></span> כל הזכויות לקוד שמורות לבעל המאגר. זכויות החומר הספרותי והחזותי שמורות לבעליהן.</p>
+    <p class="mt-2"><a class="link" href="https://www.nli.org.il/ar/systemlibrary/umbracoitempage?docId=NNL_ALEPH997012315161605171&lang=he&type=books&vid=NLI" target="_blank" rel="noopener">רשומה ביבליוגרפית בספרייה הלאומית</a></p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "נושמת איתו — הגר סנד נויגבור",
+  "short_name": "נושמת איתו",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f766e",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "dir": "rtl",
+  "lang": "he"
+}
